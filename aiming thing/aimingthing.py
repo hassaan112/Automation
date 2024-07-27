@@ -1,8 +1,12 @@
 '''
-This is a Python script that will automatically play through an online aim test, which can be found over at https://dwlim.github.io/apmtest3/
+This is a Python script that will automatically play through an online aim test, which can be found over at 
+https://dwlim.github.io/apmtest3/
 To use this, simply visit the url on your browser, then run the script while having the browser window active.
 
-NOTE: This script is dependant on your resolution and webpage size, I ran this on 1600x900 resolution, in a full-screen browser and 100% size webpage. Also note that your specific browser will change the position of the canvas, so I have usedslightly larger numbers than needed, the actual size of the canvas on which the targets can appear is 500x300. You can tweak these numbers in lines 41, 42, 43, and 44.
+NOTE: This script is dependant on your resolution and webpage size, I ran this on 1600x900 resolution, in a full-screen 
+browser and 100% size webpage. Also note that your specific browser will change the position of the canvas, so I have used 
+slightly larger numbers than needed, the actual size of the canvas on which the targets can appear is 500x300.
+You can tweak these numbers in lines 41, 42, 43, and 44.
 '''
 
 import numpy as np
